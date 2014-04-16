@@ -96,4 +96,39 @@ body {
 
 .cv{
   font-family: Verdana, serif;
+}
+
+.cv h2,h3 {
+  text-align: center;
+  font-weight: bold; 
+}
+
+.cv p {
+  margin-bottom: 0px;
+}
+
+.work {
+  margin-left: 0.5in;
+  font-weight: bold; 
 } 
+
+.skill { 
+  font-weight: bold; 
+}
+
+.linux {
+  @extend .skill;
+  color: green;
+}
+.ruby {
+  @extend .skill;
+  color: red;
+}
+.java {
+  @extend .skill;
+  color: blue;
+}
+.javascript {
+  @extend .skill;
+  color: #FF00FF;
+}
