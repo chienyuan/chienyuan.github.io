@@ -4,3 +4,6 @@
 4. "git add ."
 5. "git commit -m "updated text"
 6. "git push"
+
+p.s. the images file need to use the origin file name , not version name.
+ex. 12345.c1.jpg change it to c1.jpg
