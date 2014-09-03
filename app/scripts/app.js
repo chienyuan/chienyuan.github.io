@@ -1,15 +1,20 @@
 'use strict';
 
-angular
+var chienApp = angular
   .module('chienApp', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
+        templateUrl: 'views/home.html',
+        controller: 'MainCtrl'
+      })
+      .when('/resume', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
@@ -29,3 +34,5 @@ angular
         redirectTo: '/'
       });
   });
+
+
