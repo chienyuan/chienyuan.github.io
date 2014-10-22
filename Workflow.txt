@@ -2,5 +2,7 @@
 2. After finish updated, run "grunt build".
 3. Then run deploy.sh
 
+Now our master branch is for dist purpose and our source page are development branch.
+
 rf. http://yeoman.io/learning/deployment.html Git subtree command
 
