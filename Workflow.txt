@@ -1,9 +1,6 @@
 1. Code is under app folder.
 2. After finish updated, run "grunt build".
-3. Then "cd dist" , "cp -r . .."
-4. "git add ."
-5. "git commit -m "updated text"
-6. "git push"
+3. Then run deploy.sh
 
-p.s. the images file need to use the origin file name , not version name.
-ex. 12345.c1.jpg change it to c1.jpg
+rf. http://yeoman.io/learning/deployment.html Git subtree command
+
