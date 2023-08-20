@@ -1,3 +1,8 @@
+Development Setup:
+1. npm install -g grunt-cli
+2. npm install grunt --save-dev
+
+Build
 1. Code is under app folder.
 2. After finish updated, run "grunt build".
 3. Then run deploy.sh
